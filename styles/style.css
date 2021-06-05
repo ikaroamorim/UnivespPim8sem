@@ -1,0 +1,56 @@
+:root {
+    --highlight : #e63946;
+    --highlightl: #e84c58;
+    --bg        : #f1faee;
+    --soft      : #a8dadc;
+    --softl     : #b0dddf;
+    --regular   : #457b9d;
+    --regularl  : #4d8ab0;
+    --dark      : #1d3557;
+    --darkl     : #264774;
+}
+
+* {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+.container {
+    max-width: 720px;
+    margin   : 0 auto;
+}
+
+header {
+    height          : 10vh;
+    margin          : 0 0 20px 0;
+    background-color: var(--dark);
+    border-bottom   : 7px solid var(--highlight);
+}
+
+header .container h1 {
+    color     : var(--soft);
+    font-size : 36px;
+    text-align: center;
+    padding   : 24px 0;
+}
+
+footer {
+    /*position        : absolute;*/
+    width           : 100%;
+    /*bottom          : 0;*/
+    height          : 7vh;
+    background-color: var(--dark);
+    color           : var(--light);
+    text-align      : center;
+    padding         : 1% 0;
+}
